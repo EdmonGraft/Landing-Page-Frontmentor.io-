@@ -14,10 +14,14 @@ body{
     color:white;
 }
 
+/*Central structure of the page*/
+
 .Struct{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+/*Right Section (text & button section)*/
 
 .Right_Section{
     margin: 5rem 2rem;
@@ -47,6 +51,8 @@ p{
     color: white;
 }
 
+/*footer social media links*/
+
 .Social-Links{
     display: flex;
     flex-direction: row;
@@ -70,6 +76,8 @@ p{
     filter:hue-rotate(300deg)
 }
 
+/*footer*/
+
 .attribution{
     font-size: 11px; text-align: center;
 }
@@ -85,7 +93,13 @@ p{
 
 body{
     display: grid;
+    background-image: url("./images/bg-mobile.svg");
+    background-size: contain;
 }
+/*i used grid display to have a better design guide on the page*/
+
+/*upper logo*/
+
 .Logito{
     display: flex;
     flex-wrap: nowrap;
@@ -97,12 +111,15 @@ body{
     width: 70%;
 }
 
+/*Central structure of the page*/
+
 .Struct{
     display: flex;
     flex-direction: column;
     
 }
 
+/*first image*/
 .Paginitas{
     display: flex;
     flex-wrap: nowrap;
@@ -111,7 +128,7 @@ body{
     width: 70%;
     height: 70%;
 }
-
+/*text & button section */
 .Right_Section{
     display: flex;
     flex-wrap: wrap;
@@ -145,6 +162,8 @@ p{
     width: 40%;
     height: 10%;
 }
+
+/*footer links*/
 
 .Social-Links{
     display: flex;
