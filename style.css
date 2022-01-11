@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+/*For PC*/
+
+@media only screen and (max-width: 1440px){  
+
+body{
+	margin-top: 7rem;
+    background-image: url("./images/bg-desktop.svg");
+	background-repeat:no-repeat ;
+    background-color: hsl(228, 45%, 44%);
+	background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+}
+
+.Struct{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Right_Section{
+    margin: 5rem 2rem;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin: 0rem 2rem;
+}
+p{
+    margin: 2rem;
+}
+
+.Register_Btn{
+    text-decoration:none;
+    margin: 5rem 10rem 0rem 5rem;
+    color: hsl(228, 45%, 44%);
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    transition:0.4s;
+
+}
+.Register_Btn:hover{
+    text-decoration:none;
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+.Social-Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+	height:4rem;
+    width: 100%;
+	margin: 7rem 0rem 0rem 0rem; 
+    border: 1ps white solid;
+}
+
+.Image-Links{
+	display: flex;
+    height: 30px;
+    width: 30px;
+    filter: invert(100);
+    transition: 0.1s;
+	margin: 0px 3px;
+}
+
+.Image-Links:hover{
+    filter:hue-rotate(300deg)
+}
+
+.attribution{
+    font-size: 11px; text-align: center;
+}
+.attribution a{
+    color: hsl(300, 69%, 71%);
+}
+
+}
+
+/*For mobile*/
+
+@media only screen and (max-width: 550px){
+
+body{
+    display: grid;
+}
+.Logito{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin-left: 5rem;
+    height: 70%;
+    width: 70%;
+}
+
+.Struct{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Paginitas{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    width: 70%;
+    height: 70%;
+}
+
+.Right_Section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: 0rem 6rem;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    margin: 0.5rem 1rem;
+    text-align: center;
+}
+p{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.Register_Btn{
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin: 1.5rem 0rem 0rem 1rem;
+
+    text-decoration:none;
+    color: hsl(228, 45%, 44%);
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    width: 40%;
+    height: 10%;
+}
+
+.Social-Links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	height:4rem;
+    width: 100%;
+	margin: 7rem 0rem 0rem 0rem; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
